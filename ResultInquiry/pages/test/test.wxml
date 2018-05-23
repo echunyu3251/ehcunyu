@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="answer-title">
+    <image src="https://rb.sunlands.com/images/ResultInquiryImages/title1.png" class="answer-title-text"></image>
+  </view>
+  <view wx:for="{{catalogs}}" wx:key="item" data-select="{{item.select}}" class="{{item.select == catalogSelect ? 'active':''}} answer-item " bindtap="chooseCatalog">
+    <image src="{{item.catalogText}}" class="answer-item-text"></image>
+    <image src="{{item.catalogBorder}}" class="answer-item-border"></image>
+  </view>
+  <!-- 下一题按钮 -->
+  <image src="https://rb.sunlands.com/images/ResultInquiryImages/DownBotton.png" class="button" bindtap="DownPage"></image>
+</view>
+<!-- 音乐按钮 -->
+<view class="audio">
+  <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop style="display:none"></audio>
+</view>

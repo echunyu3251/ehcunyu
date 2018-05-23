@@ -1,0 +1,15 @@
+<!--pages/Result/Result.wxml-->
+<view class="container">
+  <view class='box'>
+    <image src='{{RandomImgUrl}}' class='random7'></image>
+    <image src='https://rb.sunlands.com/images/ResultInquiryImages/ResultPreservation.png' class='ResultPreservation' bindtap='saveImgUrl'></image>
+    <image src='https://rb.sunlands.com/images/ResultInquiryImages/ResultSearch.png' class='ResultSearch' bindtap='ResultSearch'></image>
+
+  </view>
+   <image src='https://rb.sunlands.com/images/ResultInquiryImages/erweima.png' class='erweima'></image> 
+</view>
+
+<view>
+  <!-- 音乐按钮 -->
+  <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop style='display:none'></audio>
+</view>

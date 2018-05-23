@@ -1,0 +1,78 @@
+/* pages/search/search.wxss */
+.haha{
+  z-index: 9999999;
+  width: 300rpx;
+  height: 300rpx;
+  background: #fff;
+}
+.container {
+    background: #000;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://rb.sunlands.com/images/ResultInquiryImages/search.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+input {
+  font-size: 26rpx;
+  color: #fff;
+}
+
+.name {
+  position: absolute;
+  left: 38%;
+  top: 28.1%;
+}
+
+.tel {
+  position: absolute;
+  left: 38%;
+  top: 35.3%;
+}
+/* 准考证 */
+
+.CertificatesNumber {
+  position: absolute;
+  left: 38%;
+  top: 50.3%;
+}
+
+.password {
+  position: absolute;
+  left: 38%;
+  top: 57.3%;
+}
+.c1 {
+  text-align: center;
+}
+
+.SearchSubmit {
+  width: 499rpx;
+  height: 75rpx;
+  position: absolute;
+  bottom: 20%;
+  left: 16.5%;
+}
+
+.group {
+  width: 100%;
+  z-index: 9999;
+  background: red;
+}
+
+.city{
+  width: 300rpx;
+  height: 50rpx;
+  color: #000;
+  z-index: 9999;
+  position: absolute;
+  left: 38%;
+  top: 42.3%;
+}

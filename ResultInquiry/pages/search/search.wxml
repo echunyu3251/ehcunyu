@@ -1,0 +1,22 @@
+<!--pages/search/search.wxml-->
+<view class="container">
+  <!-- 音乐按钮 -->
+  <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" style='display:none'></audio>
+  <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio1" style='display:none'></audio>
+
+  <input type='text' placeholder='请输入真实姓名' class='name' placeholder-style='font-size:20rpx' bindinput="userNameInput" value='{{userName}}'></input>
+  <!-- 电话号 -->
+  <input type='number' placeholder='请输入尚德官网注册号码' class='tel' placeholder-style='font-size:20rpx' bindinput="telInput" maxlength="11" value='{{tel}}'></input>
+  <!-- 地区 -->
+  <picker mode="selector" range="{{array}}" value="{{index}}" bindchange="listenerPickerSelected" class='city'>
+    <text style='color:#fff;font-size:14px;'>{{array[index]}}</text>
+  </picker>
+
+  <input type='text' placeholder='请输入准考证号' class='CertificatesNumber' placeholder-style='font-size:20rpx' bindinput='CertificatesNumberInput' bindfocus="HideProvincesList" maxlength="20" value='{{CertificatesNumber}}'></input>
+  <input type='text' placeholder='请输入密码' class='password' placeholder-style='font-size:20rpx' bindinput='passwordInput' value='{{password}}' maxlength="18"></input>
+
+
+
+  <image src='https://rb.sunlands.com/images/ResultInquiryImages/SearchSubmit.png' class='SearchSubmit' bindtap='SearchSubmit'></image>
+
+</view>

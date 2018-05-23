@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container" style=' background-size:{{BJT}}'>
+ <image src='https://rb.sunlands.com/images/ResultInquiryImages/www.png' class='www'></image> 
+ <image src='{{GetInto}}' class='jr' bindtap='test'></image> 
+ <image src='https://rb.sunlands.com/images/ResultInquiryImages/cx.png' class='cx' bindtap='search'></image> 
+ <!-- 音乐按钮 -->
+
+<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop style='display:none'></audio> 
+ 
+</view>
