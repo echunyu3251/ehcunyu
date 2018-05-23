@@ -1,0 +1,24 @@
+<!-- pages/Release/Release.wxml -->
+<view class="Release_content">
+  <scroll-view scroll-y  style="height:100%;">
+    <view class="textarea">
+      <textarea placeholder="Type something" auto-focus maxlength="200" auto-height show-confirm-bar="{{jp}}" />
+    </view>
+    <!-- 上传图片 -->
+    <view class="insert">
+      <block wx:for="{{img}}">
+        <image src="{{item}}" bindload="a"></image>
+      </block>
+      <view class="image_box" bindtap="choseImg">
+        <image src="https://rb.sunlands.com/images/College/jia.png"></image>
+      </view>
+    </view>
+    <view class="clear"></view>
+    <view class="Release_Choice">
+      <text>选择话题 (最多三个) :</text>
+    </view>
+    <view class="Release_Choice_box">
+      <view wx:for="{{Release}}">{{item}}</view>
+    </view>
+  </scroll-view>
+</view>

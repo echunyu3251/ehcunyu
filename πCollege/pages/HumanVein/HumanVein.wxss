@@ -1,0 +1,690 @@
+/* 人脉推荐 */
+
+.HumanVein_content {
+   width: 100%;
+  height: auto; 
+  background-color: #161616;
+  /* position: absolute; */
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.Recommend {
+  width: 92%;
+  height: 380rpx;
+  /* background-color: green; */
+  margin-left: 4%;
+  margin-top: 30rpx;
+}
+
+.Recommend_Title {
+  width: 100%;
+  height: 40rpx;
+  color: #f8f8f8;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  font-weight: bold;
+  letter-spacing: 4rpx;
+}
+
+.Recommend_Card {
+  width: 570rpx;
+  height: 240rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  border-radius: 16rpx;
+  padding-top: 20rpx;
+  background-image: url(https://rb.sunlands.com/images/College/RMTJ_BG.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Recommend_Card_TopBox {
+  width: 100%;
+  height: 110rpx;
+}
+
+.Recommend_Card_left {
+  width: 105rpx;
+  height: 105rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+  background: #fff;
+  float: left;
+}
+
+.Recommend_Card_left image {
+  width: 100%;
+  height: 100%;
+}
+
+.Recommend_Card_center {
+  width: 250rpx;
+  height: 80rpx;
+  float: left;
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+}
+
+.Recommend_Card_center_top {
+  float: left;
+}
+
+.Recommend_Card_center_top_name {
+  width: 90rpx;
+  height: 33rpx;
+  font-size: 24rpx;
+  line-height: 33rpx;
+  float: left;
+  color: #cdcdcd;
+  font-weight: bold;
+}
+
+.Recommend_Card_center_top_xy {
+  width: 140rpx;
+  height: 28rpx;
+  float: left;
+  border-radius: 16rpx;
+  border: 1rpx solid red;
+  font-size: 18rpx;
+  color: red;
+  text-align: center;
+  line-height: 29rpx;
+}
+
+.Recommend_Card_center_bottom {
+  width: 246rpx;
+  height: 33rpx;
+  font-size: 24rpx;
+  color: #bab9b9;
+  letter-spacing: 1rpx;
+  line-height: 33rpx;
+  float: left;
+  margin-top: 15rpx;
+}
+
+.Recommend_Card_right {
+  width: 96rpx;
+  height: 90rpx;
+  float: right;
+  margin-top: 15rpx;
+  margin-right: 25rpx;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.Recommend_Card_CenterBox {
+  width: 95%;
+  height: 26rpx;
+  margin-left: 7%;
+  margin-top: 25rpx;
+  margin-bottom: -10rpx;
+}
+
+.Recommend_Card_CenterBox_email, .Recommend_Card_CenterBox_address {
+  width: 250rpx;
+  height: 26rpx;
+  float: left;
+}
+
+.Recommend_Card_CenterBox_address {
+  margin-left: 30rpx;
+  margin-top: -2rpx;
+}
+
+.email_logo {
+  width: 28rpx;
+  height: 28rpx;
+  float: left;
+  margin-top: -2.5rpx;
+  /* background: lawngreen; */
+}
+
+.address_logo {
+  width: 24rpx;
+  height: 24rpx;
+  float: left;
+}
+
+.email_wz, .address_wz {
+  width: 200rpx;
+  height: auto;
+  font-size: 18rpx;
+  color: #bab9b9;
+  float: left;
+  margin-left: 5rpx;
+  /* margin-top: 4rpx; *//* background: lawngreen; */
+}
+
+.address_wz {
+  margin-top: 2rpx;
+}
+
+.Recommend_Card_BottomBox {
+  width: 94%;
+  height: 55rpx;
+  margin-left: 3%;
+  margin-top: 25rpx;
+  /* background: cadetblue; */
+  background-image: url(https://rb.sunlands.com/images/College/zhuangshi.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Recommend_Card_BottomBox_left, .Recommend_Card_BottomBox_right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  font-size: 24rpx;
+  line-height: 70rpx;
+  color: #b8b0a9;
+  /* background: brown; */
+}
+
+.Recommend_Card_BottomBox_right {
+  font-size: 22rpx;
+  color: red;
+  font-weight: bold;
+}
+
+/* 人脉圈 */
+
+.People {
+  width: 92%;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 20rpx;
+  padding-bottom: 40rpx;
+}
+
+.People_Title {
+  width: 100%;
+  height: 40rpx;
+}
+
+.People_Title_Left {
+  font-size: 28rpx;
+  color: #f8f8f8;
+  float: left;
+  font-weight: bold;
+  letter-spacing: 4rpx;
+}
+
+.People_Title_Right {
+  float: right;
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.People_Title_Right text {
+  margin-left: 25rpx;
+  color: #ccc;
+  font-size: 28rpx;
+}
+
+.People_main_Friend, .People_main_NewPosition, .People_main_Join {
+  width: 690rpx;
+  height: 170rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+  margin-top: 30rpx;
+  padding-top: 26rpx;
+  font-size: 24rpx;
+  color: #565554;
+  font-weight: 500;
+}
+
+.People_main_Friend_top, .People_main_NewPosition_top, .People_main_Join_top {
+  width: 94%;
+  height: 33rpx;
+  margin-left: 3%;
+  border-bottom: 1rpx solid #b9b8ba;
+  padding-bottom: 10rpx;
+  font-weight: 700;
+  letter-spacing: 1rpx;
+  font-size: 24rpx;
+}
+
+.People_main_Friend_wz {
+  width: 292rpx;
+  height: 33rpx;
+  display: inline;
+  color: #bf0001;
+  font-weight: bold;
+  padding: 0 6rpx 0 6rpx;
+}
+
+.People_main_Friend_bottom, .People_main_NewPosition_bottom,
+.People_main_Join_bottom {
+  width: 94%;
+  height: 88rpx;
+  margin-left: 3%;
+  /* background: lawngreen; */
+  margin-top: 20rpx;
+}
+
+.Friend_header {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  float: left;
+}
+
+.Friend_header1 {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30rpx;
+  border: 1rpx solid #ccc;
+}
+
+.Friend_img, .jiaohuan_img, .button_img {
+  width: 100%;
+  height: 100%;
+}
+
+.jioahuan_img {
+  width: 100%;
+  height: 100%;
+}
+
+.jiaohuan {
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+  margin: 20rpx 30rpx 0 30rpx;
+}
+
+.button {
+  width: 27rpx;
+  height: 27rpx;
+  float: right;
+  line-height: 27rpx;
+  margin-right: 20rpx;
+  margin-top: 35rpx;
+}
+
+.nameAndzw {
+  width: 210rpx;
+  height: 80rpx;
+  /* background: rgb(116, 38, 194); */
+  float: left;
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+  font-size: 24rpx;
+  color: #817e7b;
+  letter-spacing: 2rpx;
+  font-weight: 400;
+}
+
+.name {
+  font-size: 28rpx;
+}
+
+.gz {
+  width: 125rpx;
+  height: 50rpx;
+  font-size: 24rpx;
+  color: red;
+  text-align: center;
+  line-height: 50rpx;
+  border: 3rpx solid #bf0001;
+  border-radius: 16rpx;
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 25rpx;
+}
+
+/* 活动模块 */
+
+.activity_template {
+  margin-top: 40rpx;
+}
+
+.news_header {
+  width: 100%;
+  height: 140rpx;
+  background-color: #434344;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+  position: relative;
+}
+
+.news_header_item {
+  width: 90%;
+  height: 70%;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
+.news_header_left {
+  width: 90rpx;
+  height: 90rpx;
+  margin-top: 3rpx;
+  float: left;
+  margin-left: 10rpx;
+}
+
+.news_img {
+  width: 100%;
+  height: 100%;
+}
+
+.news_header_center {
+  width: 330rpx;
+  height: 100%;
+  float: left;
+  margin-left: 6%;
+}
+
+.news_header_center_top {
+  width: 100%;
+  height: 40rpx;
+  float: left;
+}
+
+.ItemLeft_name {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #ccc;
+  float: left;
+  letter-spacing: 2rpx;
+}
+
+.news_header_center_top_ItemLeft {
+  margin-top: 10rpx;
+}
+
+.ItemLeft_hy {
+  width: 98rpx;
+  height: 32rpx;
+  border: 0.5rpx solid red;
+  border-radius: 100rpx;
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 3rpx;
+  color: #bf0001;
+  font-size: 20rpx;
+  text-align: center;
+  line-height: 32rpx;
+}
+
+.news_header_center_bottom {
+  width: 100%;
+  height: 30rpx;
+  float: left;
+  margin-top: 20rpx;
+  color: #ccc;
+  font-size: 22rpx;
+}
+
+.news_header_right {
+  width: 112rpx;
+  height: 48rpx;
+  float: left;
+  position: absolute;
+  right: 2%;
+  top: 23%;
+  background-color: #bf0001;
+  border-radius: 100rpx;
+  color: #ccc;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 48rpx;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+  padding-top: 35rpx;
+}
+
+.main_top, .main_bottom {
+  margin-left: 40rpx;
+}
+
+.main_top {
+  width: 625rpx;
+  height: 66rpx;
+}
+
+.jianjie {
+  display: block;
+  width: 625rpx;
+  height: 100%;
+  color: #999;
+  font-size: 24rpx;
+  letter-spacing: 2rpx;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.main_center {
+  width: 690rpx;
+  height: 290rpx;
+  margin-top: 25rpx;
+}
+
+.main_center_biaoti {
+  width: 100%;
+  height: 33rpx;
+  font-size: 24rpx;
+  color: red;
+  letter-spacing: 1rpx;
+  font-weight: bold;
+  margin-left: 40rpx;
+}
+
+.tupian {
+  margin-top: 20rpx;
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 16rpx;
+  margin-left: 38rpx;
+  margin-right: 5rpx;
+  float: left;
+}
+
+.main_center_sj {
+  width: 100%;
+  height: 35rpx;
+  margin-top: 230rpx;
+}
+
+.main_center_shijian {
+  width: 210rpx;
+  height: 100%;
+  font-size: 20rpx;
+  color: #555453;
+  float: left;
+  letter-spacing: 1rpx;
+  margin-left: 40rpx;
+  line-height: 35rpx;
+}
+
+.main_center_right {
+  width: 290rpx;
+  height: 100%;
+  float: right;
+  margin-right: 5rpx;
+  font-size: 20rpx;
+  letter-spacing: 1rpx;
+}
+
+.main_center_right_item1, .main_center_right_item2, .main_center_right_item3 {
+  width: 90rpx;
+  height: 35rpx;
+  float: left;
+  margin-right: 5rpx;
+}
+
+.main_center_right image {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.main_center_right text {
+  display: block;
+  color: #555453;
+  float: right;
+  margin-right: 15rpx;
+  margin-top: -2rpx;
+  line-height: 40rpx;
+}
+
+.main_bottom {
+  margin-top: 30rpx;
+  width: 624rpx;
+  height: 210rpx;
+}
+
+.main_bottom_item {
+  width: 500rpx;
+  height: 30rpx;
+  font-size: 22rpx;
+  letter-spacing: 1rpx;
+  margin-top: 17rpx;
+}
+
+.main_bottom_item_name {
+  color: #b1b0b2;
+  font-weight: bold;
+}
+
+.main_bottom_item_content {
+  color: #b0aeb0;
+  letter-spacing: 2rpx;
+}
+
+.main_bottom_pinglun {
+  width: 200rpx;
+  height: 36rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 16rpx;
+  margin-top: 20rpx;
+  line-height: 36rpx;
+  text-align: center;
+  font-size: 18rpx;
+  color: #ccc;
+}
+
+/*  活动模块   更改后的样式*/
+
+.news_header1 {
+  width: 100%;
+  height: 180rpx;
+  background-color: #899594;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+  position: relative;
+}
+
+.main1 {
+  width: 100%;
+  height: auto;
+  background-image: url(https://rb.sunlands.com/images/College/huodong_BG.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+  padding-top: 35rpx;
+}
+
+.main1_center_img {
+  width: 630rpx;
+  height: 166rpx;
+  float: left;
+  border: 1rpx solid #737c7f;
+  border-radius: 16rpx;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+}
+
+.main1_center_img_image {
+  margin-top: 20rpx;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 16rpx;
+  margin-left: 18rpx;
+  margin-right: 5rpx;
+  float: left;
+}
+
+.main1_center_wz {
+  width: 435rpx;
+  height: 130rpx;
+  font-size: 22rpx;
+  color: #ccc;
+  letter-spacing: 1rpx;
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 30rpx;
+}
+
+.main1_center_shijian {
+  width: 210rpx;
+  height: 100%;
+  font-size: 20rpx;
+  color: #555453;
+  float: left;
+  letter-spacing: 1rpx;
+  margin-left: 40rpx;
+  line-height: 35rpx;
+}
+
+.main1_bottom_item {
+  width: 500rpx;
+  height: 60rpx;
+}
+
+.image_box {
+  width: 380rpx;
+  height: 100%;
+  /* overflow: scroll; */
+}
+
+.tx {
+  width: 58rpx;
+  height: 58rpx;
+  border-radius: 50%;
+  float: left;
+  margin-right: -25rpx;
+}
+
+.baoming {
+  float: right;
+  color: #ccc;
+  font-size: 20rpx;
+  margin-top: 20rpx;
+  letter-spacing: 1rpx;
+}
+
+.main_bottom_button {
+  width: 630rpx;
+  height: 88rpx;
+  background: #ccc;
+  margin-top: 35rpx;
+  margin-bottom: 30rpx;
+  text-align: center;
+  color: #fff;
+  line-height: 88rpx;
+  border-radius: 16rpx;
+  margin-left: -10rpx;
+}

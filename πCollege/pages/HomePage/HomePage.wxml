@@ -1,0 +1,111 @@
+<import src="../news/news.wxml" />
+
+<view class="content">
+  <scroll-view scroll-y style="height:100%;" bindscrolltolower="onReachBottom">
+    <view class="Release" bindtap='Release'></view>
+    <view class="swiper_show">
+      <!--轮播   -->
+      <swiper previous-margin="68rpx" next-margin="40rpx" bindchange='changID' class='sw'>
+        <swiper-item class="s-item" wx:for="{{imgUrls2}}" wx:key="unique">
+          <image src="https://rb.sunlands.com/social/webstatic/headphoto/{{item.name}}" class='My_img' />
+        </swiper-item>
+      </swiper>
+    </view>
+    <!-- 名企大咖 -->
+    <view class="BigShot">
+      <view class="biaoti">
+        <text class="Text_left">名企大咖</text>
+        <view class="gengduo">
+          <text class="Text_right">更 多</text>
+          <image src="https://rb.sunlands.com/images/College/gengduo.png" class="gd"></image>
+        </view>
+      </view>
+      <view class="BigShot_swiper_box">
+        <swiper previous-margin="0rpx" next-margin="300rpx" class="BigShot_swiper">
+          <block wx:for="{{[1, 2, 3,4,5,6]}}" wx:key="unique">
+            <swiper-item class="BigShot_swiper_item">
+              <view class="BigShot_video">
+                <view class='top'>
+                  <view class='Head_portrait'>
+                    <image src='https://rb.sunlands.com/images/College/Head_portrait.png' class="Head_portrait_img"></image>
+                  </view>
+                  <view class='words'>
+                    <text class='bt'>你造吗? 社交也要MBA...</text>
+                    <text class='zw'>徐静  亚马逊·产品总监</text>
+                  </view>
+                </view>
+                <view class='bottom'>
+                  <view class='left'>
+                    <image class='img1' src="https://rb.sunlands.com/images/College/tiaodong.png"></image>
+                    <image class='img2' src="https://rb.sunlands.com/images/College/zhibo.png"></image>
+                  </view>
+                  <view class='right'>
+                    <image class='img3' src="https://rb.sunlands.com/images/College/renshu.png"></image>
+                    <text class='rs'>22222人观看</text>
+                  </view>
+                </view>
+              </view>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+    </view>
+    <!-- 尚德牛人 -->
+    <view class="ShangDeNiuRen">
+      <view class="biaoti">
+        <text class="Text_left">尚德牛人</text>
+        <view class="gengduo">
+          <text class="Text_right">更 多</text>
+          <image src="https://rb.sunlands.com/images/College/gengduo.png" class="gd"></image>
+        </view>
+      </view>
+
+      <view class="ShangDeNiuRen_swiper_box">
+        <swiper previous-margin="0rpx" next-margin="520rpx" class="ShangDeNiuRen_swiper">
+          <block wx:for="{{[1, 2, 3,4,5,6,7,8,9,10]}}" wx:key="unique">
+            <swiper-item class="ShangDeNiuRen_swiper_item">
+              <view class="ShangDeNiuRent_video" style=" background-image: url(https://rb.sunlands.com/images/College/ShangDeNiuRent_No.png);background-repeat:no-repeat;background-size:100% 100%;">
+                <view class='rsBG'>
+                  2222人看过
+                </view>
+                <view class='NR_top'>
+                  <image src='https://rb.sunlands.com/images/College/NR_img.png' class='NR_img'></image>
+                </view>
+                <view class='NR_center'>
+                  <text class='NR_center_name'>李静</text>
+                  <text decode="{{decode}}" class='NR_center_zw'>&lt;亚马逊·产品总监&gt;</text>
+                </view>
+                <view class='NR_bottom'>
+                  π学院 · 09级
+                </view>
+              </view>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+    </view>
+
+    <view class="news_box">
+      <view class="Title">
+        <text class="Title_left">行业观点</text>
+        <view class="toggle">
+          <text class="Title_right">推荐</text>
+          <text>|</text>
+          <text>好友</text>
+        </view>
+      </view>
+      <block wx:for="{{[1,2,3,4,5,6]}}" wx:key="unique">
+        <!-- 话题模块 -->
+        <view class="forum_template">
+          <template is="forum" />
+        </view>
+        <!-- 活动模块 -->
+        <view class="activity_template">
+          <template is="activity" data="{{img1}}" />
+        </view>
+      </block>
+    </view>
+
+
+  </scroll-view>
+</view>

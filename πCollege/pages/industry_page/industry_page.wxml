@@ -1,0 +1,10 @@
+<!--pages/industry_page/industry_page.wxml-->
+<view class="industry_content">
+<scroll-view scroll-y  style="height:100%;">
+        <view class="header">选择一个行业领域标签</view>
+        <view class="main_bq">
+            <view wx:for="{{Label}}" wx:key="unique">{{item}}</view>
+        </view>
+
+</scroll-view>
+</view>

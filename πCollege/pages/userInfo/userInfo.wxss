@@ -1,0 +1,294 @@
+/* pages/userInfo/userInfo.wxss */
+
+.userInfo_content {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30rpx;
+  background-color: #161616;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.header {
+  width: 100%;
+  height: 58rpx;
+  background-color: #282828;
+  margin-top: 20rpx;
+  line-height: 58rpx;
+}
+
+.header image {
+  width: 30rpx;
+  height: 30rpx;
+  float: left;
+  margin-top: 16rpx;
+  margin-left: 30rpx;
+}
+
+.header text {
+  display: block;
+  float: left;
+  font-size: 26rpx;
+  color: #daa461;
+  letter-spacing: 1rpx;
+  margin-left: 10rpx;
+}
+
+.user_box1 {
+  width: 90%;
+  height: 780rpx;
+  margin-left: 5%;
+  margin-top: 30rpx;
+}
+
+.Info_box {
+  width: 100%;
+  height: 100rpx;
+  background: #434344;
+  border-radius: 16rpx;
+  margin-top: 10rpx;
+}
+
+.Info_box_left {
+  float: left;
+  width: 150rpx;
+  height: 100%;
+  /* background: red; */
+  margin-left: 20rpx;
+  line-height: 100rpx;
+}
+
+.left1, .left2 {
+  display: block;
+  float: left;
+  font-size: 28rpx;
+  color: #ccc;
+  letter-spacing: 0;
+}
+
+.left1 {
+  margin-top: 7.5rpx;
+  margin-right: 8rpx;
+  color: #c20d0d;
+}
+
+.Info_box_right {
+  float: right;
+  width: 450rpx;
+  height: 100%;
+  /* background: green; */
+  margin-right: 20rpx;
+  font-size: 28rpx;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 100rpx;
+  /* text-align: center; */
+}
+
+.right_sj {
+  width: 27rpx;
+  height: 27rpx;
+  /* background: #fff; */
+  float: right;
+  margin-top: 39rpx;
+}
+
+.right_tx image, .right_sj image {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.right_tx {
+  width: 66rpx;
+  height: 66rpx;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  margin-left: 345rpx;
+  margin-top: 18rpx;
+  
+}
+
+.user_head {
+  border-radius: 50%;
+}
+
+/* .Info_box_right1 {
+    float: right;
+    width: 450rpx;
+    height: 100%;
+    margin-right: 20rpx;
+    font-size: 28rpx;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: 100rpx;
+    background: #c20d0d;
+} */
+
+/* .right1_tx {
+    width: 66rpx;
+    height: 66rpx;
+    border-radius: 50%;
+    background: #fff;
+    float: left;
+    margin-left: 345rpx;
+    margin-top: 18rpx;
+}
+
+.right1_tx image,
+.right1_sj image {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.right1_sj {
+    width: 27rpx;
+    height: 27rpx;
+    float: right;
+    margin-top: 39rpx;
+} */
+
+.input_sty {
+  display: block;
+  width: auto;
+  height: auto;
+  /* border: 1rpx red solid;  */
+  margin-top: 30rpx;
+  /* margin-left: 45rpx; */
+  text-align: right;
+  /* background: #000; */
+}
+
+.input-placeholder {
+  /* color: #ccc; */
+}
+
+.right_sex {
+  width: auto;
+  height: 40rpx;
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 3rpx;
+  color: #ccc;
+}
+
+.right_hy {
+  width: auto;
+  height: 40rpx;
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 3rpx;
+  color: #ccc;
+}
+
+.right_gs, .right_school, .right_date, .right_zy, .right_xy, .right_email,
+.right_tel, .right_uesrID, .right_address, .right_zw {
+  width: auto;
+  height: 100%;
+  float: right;
+  color: #ccc;
+  margin-right: 10rpx;
+}
+
+.user_lxfs {
+  width: 100%;
+  height: 42rpx;
+  line-height: 40rpx;
+  margin-left: 18rpx;
+}
+
+.user_lxfs image {
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+  margin-top: 7rpx;
+  margin-left: 30rpx;
+}
+
+.user_lxfs text {
+  display: block;
+  float: left;
+  font-size: 28rpx;
+  color: #daa461;
+  letter-spacing: 1rpx;
+  margin-left: 10rpx;
+  margin-top: 9rpx;
+}
+
+.user_box2 {
+  width: 90%;
+  height: 330rpx;
+  margin-left: 5%;
+  margin-top: 25rpx;
+}
+
+.lx_box {
+  width: 100%;
+  height: 100rpx;
+  background: #434344;
+  border-radius: 16rpx;
+  margin-top: 10rpx;
+}
+
+.user_xyInfo {
+  width: 100%;
+  height: 42rpx;
+  line-height: 40rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}
+
+.user_xyInfo image {
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+  margin-top: 7rpx;
+  margin-left: 30rpx;
+}
+
+.user_xyInfo text {
+  display: block;
+  float: left;
+  font-size: 28rpx;
+  color: #daa461;
+  letter-spacing: 1rpx;
+  margin-left: 10rpx;
+  margin-top: 9rpx;
+}
+
+.user_box3 {
+  width: 90%;
+  height: 440rpx;
+  margin-left: 5%;
+  margin-top: 30rpx;
+}
+
+.xyInfo_box {
+  width: 100%;
+  height: 100rpx;
+  background: #434344;
+  border-radius: 16rpx;
+  margin-top: 10rpx;
+}
+
+.btn {
+  width: 86%;
+  height: 100rpx;
+  background-color: #ecb167;
+  border-radius: 16rpx;
+  margin-left: 7%;
+  margin-top: 30rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 34rpx;
+  color: #434344;
+  letter-spacing: 1rpx;
+  font-weight: 600;
+  margin-bottom: 50rpx;
+  /* padding-bottom: 30rpx; */
+}

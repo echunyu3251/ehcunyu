@@ -1,0 +1,8 @@
+<!--pages/qd_page/qd_page.wxml-->
+<view class='qd'>
+  <scroll-view scroll-y style="height:100%;">
+    <view class='qd_content' style='background-image: url(https://rb.sunlands.com/images/College/qd_Bg.png);background-size:100% auto;background-repeat: no-repeat;position: absolute;left: 0;bottom:0;top: 0;right: 0;'>
+      <view class='qd_btn' bindtap='login' style='position:absolute;bottom:{{bottom}}%;left: 10%;color: #fff;width: 80%;height: 80rpx;'>开启我的社交之旅</view>
+    </view>
+  </scroll-view>
+</view>

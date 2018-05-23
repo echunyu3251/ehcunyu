@@ -1,0 +1,101 @@
+/* pages/Release/Release.wxss */
+.Release_content{
+    background-color: #161616;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+
+}
+.textarea {
+    width: 90%;
+    height: 300rpx;
+    background-color: #fff;
+    border-radius: 16rpx;
+    margin-left: 5%;
+    margin-top: 30rpx;
+    padding-left: 3rpx;
+    padding-top: 3rpx;
+    font-size: 24rpx;
+}
+
+placeholder-style {
+    font-size: 10rpx;
+    padding-left: 20rpx;
+}
+
+textarea {
+    background: #fff;
+    margin-left: 15rpx;
+    margin-top: 10rpx;
+    letter-spacing: 1rpx;
+}
+
+.Release_Choice {
+    width: 90%;
+    height: 50rpx;
+    margin-top: 50rpx;
+    margin-left: 5%;
+    color: #fff;
+    font-size: 24rpx;
+    /* background:#fff;  */
+}
+
+.Release_Choice text {
+    letter-spacing: 3rpx;
+}
+
+.Release_Choice_box {
+    width: 70%;
+    height: auto;
+    background: #fff;
+    margin-left: 5%;
+}
+
+.Release_Choice_box view {
+    width: 130rpx;
+    height: 50rpx;
+    border-radius: 16rpx;
+    background: #434344;
+    float: left;
+    margin-right: 25rpx;
+    margin-top: 20rpx;
+    font-size: 22rpx;
+    line-height: 50rpx;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1rpx;
+}
+ 
+
+/* 插入图片 */
+
+.insert {
+    width: 700rpx;
+    margin-left: 5%;
+    height: auto;
+    background: cadetblue;
+    margin-top: 30rpx;
+}
+
+image {
+    width: 130rpx;
+    height: 130rpx;
+    float: left;
+    margin-right: 30rpx;
+    margin-bottom: 20rpx;
+}
+
+.image_box {
+    width: 130rpx;
+    height: 130rpx;
+    float: left;
+    background: #ccc;
+    border: dashed 1rpx #999;
+    border-radius: 16rpx;
+}
+
+.clear {
+    clear: both;
+}

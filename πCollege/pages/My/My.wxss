@@ -1,0 +1,251 @@
+/* pages/My/My.wxss */
+.my_content{
+    background-color: #161616;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+
+}
+.my_header {
+  width: 100%;
+  height: 310rpx;
+  /* background: #ccc; */
+  position: relative;
+}
+
+.my_header_BG {
+  width: 100%;
+  height: 260rpx;
+   background-image: url(https://rb.sunlands.com/images/College/my_BG.png); 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.my_Card {
+  width: 86%;
+  height: 280rpx;
+  background-image: url(https://rb.sunlands.com/images/College/xinxi_BG.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 7%;
+  padding-top: 20rpx;
+}
+
+.Recommend_Card_TopBox {
+  width: 100%;
+  height: 110rpx;
+}
+
+.Recommend_Card_left {
+  width: 105rpx;
+  height: 105rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+  background: #fff;
+  float: left;
+}
+
+.user_head {
+  width: 100%;
+  height: 100%;
+   border-radius: 50%;
+}
+
+.Recommend_Card_center {
+  width: 250rpx;
+  height: 80rpx;
+  float: left;
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+}
+
+.Recommend_Card_center_top {
+  float: left;
+}
+
+.Recommend_Card_center_top_name {
+  width: 90rpx;
+  height: 33rpx;
+  font-size: 28rpx;
+  line-height: 33rpx;
+  float: left;
+  color: #5e5c5b;
+  font-weight: bold;
+  margin-top: -4rpx;
+}
+
+.Recommend_Card_center_top_xy {
+  width: 140rpx;
+  height: 28rpx;
+  float: left;
+  border-radius: 16rpx;
+  border: 1rpx solid red;
+  font-size: 20rpx;
+  color: red;
+  text-align: center;
+  margin-left: 17rpx;
+  line-height: 30rpx;
+}
+
+.Recommend_Card_center_bottom {
+  width: 246rpx;
+  height: 33rpx;
+  font-size: 22rpx;
+  color: #bab9b9;
+  letter-spacing: 1rpx;
+  line-height: 33rpx;
+  float: left;
+  margin-top: 15rpx;
+}
+
+.Recommend_Card_right {
+  width: 108rpx;
+  height: 108rpx;
+  float: right;
+  margin-right: 30rpx;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.my_jianjie {
+  width: 270rpx;
+  height: 130rpx;
+  margin-left: 145rpx;
+}
+
+.my_xy {
+  font-size: 22rpx;
+  color: #bf0001;
+  letter-spacing: 3rpx;
+  font-weight: bold;
+}
+
+.my_email {
+  width: 260rpx;
+  height: 30rpx;
+  margin-top: 7rpx;
+}
+
+.my_email image {
+  width: 26rpx;
+  height: 26rpx;
+  float: left;
+}
+
+.my_xy_yx {
+  width: 220rpx;
+  height: 100%;
+  font-size: 20rpx;
+  color: #999;
+  float: left;
+  margin-left: 10rpx;
+}
+
+.userInfo {
+  width: 100%;
+  height: 28rpx;
+  font-size: 20rpx;
+  color: #ccc;
+  letter-spacing: 1rpx;
+}
+
+.userInfo view {
+  float: right;
+  padding-right: 40rpx;
+}
+
+.my_box {
+  width: 84%;
+  height: 150rpx;
+  /* background: #fff;  */
+  margin-left: 11%;
+  margin-top: 30rpx;
+}
+
+.my_dt {
+  width: 120rpx;
+  height: 100%;
+  float: left;
+  margin-right: 110rpx;
+}
+
+.my_dt image {
+  width: 99rpx;
+  height: 99rpx;
+}
+
+.my_dt view {
+  font-size: 28rpx;
+  color: #ecb167;
+  letter-spacing: 1rpx;
+}
+
+.my_main {
+  width: 94%;
+  height: 450rpx;
+  /* background: rebeccapurple; */
+  margin-top: 40rpx;
+  margin-left: 4%;
+}
+
+.box1 {
+  width: 690rpx;
+  height: 100rpx;
+  background: #434344;
+  margin-top: 10rpx;
+  border-radius: 16rpx;
+  position: relative;
+}
+
+.box1_left {
+  width: 200rpx;
+  height: 100%;
+   /* background: #fff;  */
+  padding-left: 40rpx;
+  font-size: 28rpx;
+  color: #ccc;
+  letter-spacing: 1rpx;
+  float: left;
+}
+
+.box1_left image {
+  width: 32rpx;
+  height: 32rpx;
+  float: left;
+  margin-top: 30rpx;
+}
+
+.box1_left text {
+  display: block;
+  float: left;
+  margin-top: 28rpx;
+  margin-left: 20rpx;
+}
+.box1_right{
+  width: 81rpx;
+  height: 40rpx;
+  /* background: red; */
+  float: right;
+  margin-top: 35rpx;
+  margin-right: 40rpx;
+}
+.box1_right text{
+  display: block;
+  font-size: 28rpx;
+color: #bab9b9;
+letter-spacing: 0;
+line-height: 40rpx;
+float: left;
+
+}
+.box1_right image{
+  width: 27rpx;
+  height: 27rpx;
+  float: right;
+  margin-top: 7rpx;
+}

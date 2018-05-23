@@ -1,0 +1,102 @@
+<!--pages/My/My.wxml-->
+<view class='my_content'>
+<scroll-view scroll-y  style="height:100%;">
+  <!--头部  -->
+  <view class='my_header'>
+    <view class='my_header_BG'>
+      <view class='my_Card'>
+        <view class="Recommend_Card_TopBox">
+          <view class="Recommend_Card_left">
+            <image src='{{user_head}}' class='user_head'></image>
+          </view>
+          <view class="Recommend_Card_center">
+            <view class="Recommend_Card_center_top">
+              <view class="Recommend_Card_center_top_name">王晶晶</view>
+              <view class="Recommend_Card_center_top_xy">π学院 · 在读</view>
+            </view>
+            <view class="Recommend_Card_center_bottom">德邦速运 · 行政主管</view>
+          </view>
+          <view class="Recommend_Card_right">
+            <image src="https://rb.sunlands.com/images/College/my_logo.png" class="logo"></image>
+          </view>
+        </view>
+        <view class='my_jianjie'>
+          <view class='my_xy'>π学院 · 在读</view>
+          <view class='my_email' style='margin-top:15rpx;'>
+            <image src='https://rb.sunlands.com/images/College/my_email.png'></image>
+            <view class='my_xy_yx'>8587484574@QQ.COM</view>
+          </view>
+          <view class='my_email'>
+            <image src='https://rb.sunlands.com/images/College/my_weizhi.png'></image>
+            <view class='my_xy_yx'>望京SOHO-706室</view>
+          </view>
+        </view>
+        <view class='userInfo'>
+          <view bindtap='userInfo'>编辑完善个人信息>>></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--动态 关注 粉丝  -->
+  <view class='my_box'>
+    <view class='my_dt' style='margin-left:10rpx;'>
+      <image src='https://rb.sunlands.com/images/College/dongtai.png'></image>
+      <view>动态99+</view>
+    </view>
+    <view class='my_dt'>
+      <image src='https://rb.sunlands.com/images/College/guanZhu.png'></image>
+      <view>关注99+</view>
+    </view>
+    <view class='my_dt' style='margin-right: -130rpx; '>
+      <image src='https://rb.sunlands.com/images/College/fensi.png'></image>
+      <view>粉丝99+</view>
+    </view>
+  </view>
+  <view class='my_main'>
+    <view class='box1'>
+      <view class='box1_left'>
+        <image src='https://rb.sunlands.com/images/College/my_dianzan.png'></image>
+        <text> 我赞过的</text>
+      </view>
+      <view class='box1_right'>
+        <text>31</text>
+        <image src='https://rb.sunlands.com/images/College/my_zhankai.png'></image>
+      </view>
+    </view>
+    <view class='box1'>
+      <view class='box1_left'>
+        <image src='https://rb.sunlands.com/images/College/my_hudong.png'></image>
+        <text> 我的互动</text>
+      </view>
+      <view class='box1_right'>
+        <text>31</text>
+        <image src='https://rb.sunlands.com/images/College/my_zhankai.png'></image>
+      </view>
+    </view>
+    <view class='box1'>
+      <view class='box1_left'>
+        <image src='https://rb.sunlands.com/images/College/my_bangzhu.png'></image>
+        <text>帮助与反馈</text>
+      </view>
+      <view class='box1_right'>
+        <text></text>
+        <image src='https://rb.sunlands.com/images/College/my_zhankai.png'></image>
+      </view>
+    </view>
+    <view class='box1'>
+      <view class='box1_left'>
+        <image src='https://rb.sunlands.com/images/College/my_shezhi.png'></image>
+        <text> 设置</text>
+      </view>
+      <view class='box1_right'>
+        <text></text>
+        <image src='https://rb.sunlands.com/images/College/my_zhankai.png'></image>
+      </view>
+      
+    </view>
+
+
+
+  </view>
+</scroll-view>
+</view>

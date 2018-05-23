@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/WelcomePpage/WelcomePpage",
+    "pages/HomePage/HomePage",
+    "pages/HumanVein/HumanVein",
+    "pages/My/My",
+    "pages/Release/Release",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/userInfo/userInfo",
+    "pages/news/news",
+    "pages/industry_page/industry_page",
+    "pages/up_head/up_head",
+    "pages/cxsq/cxsq"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#434344",
+    "navigationBarTitleText": "发现",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "backgroundColor": "#434344",
+    "color": "#FFFFFF",
+    "borderStyle": "black",
+    "selectedColor": "#ccc",
+    "list": [
+      {
+        "pagePath": "pages/HomePage/HomePage",
+        "text": "发现",
+        "iconPath": "./img/HomePage_No1.png",
+        "selectedIconPath": "./img/HomePage.png"
+      },
+      {
+        "pagePath": "pages/HumanVein/HumanVein",
+        "text": "人脉",
+        "iconPath": "./img/HumanVein_No.png",
+        "selectedIconPath": "./img/HumanVein.png"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "text": "我的",
+        "iconPath": "./img/My_No.png",
+        "selectedIconPath": "./img/My.png"
+      }
+    ]
+  }
+}

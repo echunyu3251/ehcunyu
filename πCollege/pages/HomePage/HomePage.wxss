@@ -1,0 +1,685 @@
+.content {
+  background-color: #161616;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* 发布信息 */
+
+.Release {
+  width: 100rpx;
+  height: 100rpx;
+  background-image: url(https://rb.sunlands.com/images/College/Release.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  right: 3%;
+  bottom: 7%;
+  z-index: 999999;
+}
+
+/*轮播1  */
+
+.swiper_show {
+  width: 100%;
+  height: 260rpx;
+  padding-top: 30rpx;
+}
+
+.sw {
+  width: 100%;
+  height: 100%;
+}
+
+.s-item {
+  display: block;
+  width: 550rpx;
+  height: 256rpx;
+}
+
+.My_img {
+  width: 615rpx;
+  height: 256rpx;
+  border-radius: 16rpx;
+}
+
+/*大咖  */
+
+.BigShot {
+  width: 97%;
+  height: 228rpx;
+  margin-top: 40rpx;
+  margin-left: 3%;
+}
+
+.biaoti {
+  width: 100%;
+  height: 30px;
+}
+
+.Text_left {
+  float: left;
+  font-size: 28rpx;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10rpx;
+  letter-spacing: 3rpx;
+}
+
+.gengduo {
+  width: 110rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 30rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+
+.Text_right {
+  display: block;
+  margin-top: -2rpx;
+  float: left;
+  color: #ccc;
+}
+
+.gd {
+  padding-top: 2rpx;
+  width: 28rpx;
+  height: 28rpx;
+  margin-left: 15rpx;
+}
+
+.BigShot_swiper_box {
+  width: 100%;
+  height: 165rpx;
+}
+
+.BigShot_swiper, ShangDeNiuRen_swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.BigShot_video {
+  width: 400rpx;
+  height: 100%;
+  background-image: url(https://rb.sunlands.com/images/College/BigShot.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 16rpx;
+  position: relative;
+}
+
+.top {
+  width: 353rpx;
+  height: 67rpx;
+  position: absolute;
+  top: 25rpx;
+  left: 25rpx;
+}
+
+.Head_portrait {
+  width: 62rpx;
+  height: 62rpx;
+  background: #fff;
+  border-radius: 50%;
+  float: left;
+}
+
+.Head_portrait_img {
+  width: 100%;
+  height: 100%;
+}
+
+.words {
+  width: 271rpx;
+  height: 67rpx;
+  margin-left: 20rpx;
+  float: left;
+}
+
+.bt {
+  font-size: 24rpx;
+  color: #fff;
+  float: left;
+}
+
+.zw {
+  margin-top: 7rpx;
+  font-size: 20rpx;
+  color: #ccc;
+  float: left;
+}
+
+.bottom {
+  width: 353rpx;
+  height: 45rpx;
+  position: absolute;
+  top: 115rpx;
+  left: 25rpx;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.img1 {
+  width: 44rpx;
+  height: 30rpx;
+  float: left;
+  margin-left: 15rpx;
+}
+
+.img2 {
+  width: 72rpx;
+  height: 28rpx;
+  float: right;
+  margin-right: 18rpx;
+  margin-top: 4rpx;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  float: right;
+  margin-top: 4rpx;
+}
+
+.img3 {
+  width: 28rpx;
+  height: 28rpx;
+  float: left;
+  margin-left: 30rpx;
+}
+
+.rs {
+  float: right;
+  color: #ccc;
+  font-size: 18rpx;
+  margin-right: 11rpx;
+  margin-top: 5rpx;
+}
+
+/*牛人  */
+
+.ShangDeNiuRen {
+  margin-top: 40rpx;
+  width: 97%;
+  height: 300rpx;
+  margin-left: 3%;
+}
+
+.ShangDeNiuRen_swiper_box {
+  width: 100%;
+  height: 220rpx;
+}
+
+.ShangDeNiuRent_video {
+  width: 180rpx;
+  height: 220rpx;
+  border-radius: 16rpx;
+  position: relative;
+}
+
+.rsBG {
+  width: 75rpx;
+  height: 20rpx;
+  background: #ccc;
+  border-bottom-right-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  position: absolute;
+  top: 17rpx;
+  text-align: center;
+  line-height: 22rpx;
+  font-size: 10rpx;
+  color: #999;
+}
+
+.NR_top {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: 40rpx;
+  left: 57rpx;
+}
+
+.NR_img {
+  width: 100%;
+  height: 100%;
+}
+
+.NR_center {
+  width: 151rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 105rpx;
+  left: 15rpx;
+  text-align: center;
+}
+
+.NR_center_name {
+  font-size: 22rpx;
+  color: #999;
+  float: left;
+  margin-left: 52rpx;
+  padding-bottom: 6rpx;
+}
+
+.NR_center_zw {
+  font-size: 14rpx;
+  color: #ccc;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  /* text-align: left; */
+}
+
+.NR_bottom {
+  width: 110rpx;
+  height: 25rpx;
+  position: absolute;
+  top: 180rpx;
+  left: 33rpx;
+  color: red;
+  font-size: 18rpx;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*话题  */
+
+.news_box {
+  width: 94%;
+  height: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 30rpx;
+  padding-bottom: 40rpx;
+}
+
+.Title {
+  width: 100%;
+  height: 40rpx;
+}
+
+.Title_left {
+  font-size: 28rpx;
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  letter-spacing: 3rpx;
+  margin-left: 10rpx;
+}
+
+.toggle {
+  float: right;
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.toggle text {
+  margin-left: 25rpx;
+  color: #ccc;
+  font-size: 28rpx;
+}
+
+/*news,activity 共用一套样式 */
+
+.forum_box {
+  width: 100%;
+  height: auto;
+  border-radius: 16rpx;
+}
+
+.forum_template {
+  margin-top: 35rpx;
+}
+
+.news_header {
+  width: 100%;
+  height: 140rpx;
+  background-color: #434344;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+  position: relative;
+}
+
+.news_header_item {
+  width: 90%;
+  height: 70%;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.news_header_left {
+  width: 90rpx;
+  height: 90rpx;
+  margin-top: 3rpx;
+  float: left;
+  margin-left: 10rpx;
+}
+
+.news_img {
+  width: 100%;
+  height: 100%;
+}
+
+.news_header_center {
+  width: 330rpx;
+  height: 100%;
+  float: left;
+  margin-left: 6%;
+}
+
+.news_header_center_top {
+  width: 100%;
+  height: 40rpx;
+  float: left;
+}
+
+.news_header_center_top_ItemLeft {
+  margin-top: 10rpx;
+}
+
+.ItemLeft_name {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #ccc;
+  float: left;
+  letter-spacing: 2rpx;
+  /* line-height: 80rpx; */
+}
+
+.ItemLeft_hy {
+  width: 98rpx;
+  height: 32rpx;
+  border: 0.5rpx solid red;
+  border-radius: 100rpx;
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 3rpx;
+  color: #bf0001;
+  font-size: 16rpx;
+  text-align: center;
+  line-height: 35.5rpx;
+}
+
+.news_header_center_bottom {
+  width: 100%;
+  height: 30rpx;
+  float: left;
+  margin-top: 20rpx;
+  color: #ccc;
+  font-size: 22rpx;
+}
+
+.news_header_right {
+  width: 112rpx;
+  height: 48rpx;
+  float: left;
+  position: absolute;
+  right: 2%;
+  top: 23%;
+  background-color: #bf0001;
+  border-radius: 100rpx;
+  color: #ccc;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 48rpx;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+  padding-top: 35rpx;
+}
+
+.main_top, .main_bottom {
+  margin-left: 40rpx;
+}
+
+.main_top {
+  width: 625rpx;
+  height: 66rpx;
+}
+
+.jianjie {
+  display: block;
+  width: 625rpx;
+  height: 100%;
+  color: #999;
+  font-size: 24rpx;
+  letter-spacing: 2rpx;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.main_center {
+  width: 690rpx;
+  height: 290rpx;
+  margin-top: 25rpx;
+}
+
+.main_center_biaoti {
+  width: 100%;
+  height: 33rpx;
+  font-size: 24rpx;
+  color: red;
+  letter-spacing: 1rpx;
+  font-weight: bold;
+  margin-left: 40rpx;
+}
+
+.tupian {
+  margin-top: 20rpx;
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 16rpx;
+  margin-left: 38rpx;
+  margin-right: 5rpx;
+  float: left;
+}
+
+.main_center_sj {
+  width: 100%;
+  height: 35rpx;
+  margin-top: 230rpx;
+}
+
+.main_center_shijian {
+  width: 210rpx;
+  height: 100%;
+  font-size: 20rpx;
+  color: #555453;
+  float: left;
+  letter-spacing: 1rpx;
+  margin-left: 40rpx;
+  line-height: 35rpx;
+}
+
+.main_center_right {
+  width: 290rpx;
+  height: 100%;
+  float: right;
+  margin-right: 5rpx;
+  font-size: 20rpx;
+  letter-spacing: 1rpx;
+}
+
+.main_center_right_item1, .main_center_right_item2, .main_center_right_item3 {
+  width: 90rpx;
+  height: 35rpx;
+  float: left;
+  margin-right: 5rpx;
+}
+
+.main_center_right image {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.main_center_right text {
+  display: block;
+  color: #555453;
+  float: right;
+  margin-right: 15rpx;
+  margin-top: -2rpx;
+  line-height: 40rpx;
+}
+
+.main_bottom {
+  margin-top: 30rpx;
+  width: 624rpx;
+  height: 210rpx;
+}
+
+.main_bottom_item {
+  width: 500rpx;
+  height: 30rpx;
+  font-size: 22rpx;
+  letter-spacing: 1rpx;
+  margin-top: 17rpx;
+}
+
+.main_bottom_item_name {
+  color: #b1b0b2;
+  font-weight: bold;
+}
+
+.main_bottom_item_content {
+  color: #b0aeb0;
+  letter-spacing: 2rpx;
+}
+
+.main_bottom_pinglun {
+  width: 200rpx;
+  height: 36rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 16rpx;
+  margin-top: 20rpx;
+  line-height: 36rpx;
+  text-align: center;
+  font-size: 18rpx;
+  color: #ccc;
+}
+
+/* 活动模块  更改的样式*/
+
+.activity_template {
+  margin-top: 40rpx;
+}
+
+.news_header1 {
+  width: 100%;
+  height: 140rpx;
+  background-color: #899594;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+  position: relative;
+}
+
+.main1 {
+  width: 100%;
+  height: auto;
+  background-image: url(https://rb.sunlands.com/images/College/huodong_BG.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+  padding-top: 35rpx;
+}
+
+.main1_center_img {
+  width: 630rpx;
+  height: 166rpx;
+  float: left;
+  border: 1rpx solid #737c7f;
+  border-radius: 16rpx;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+}
+
+.main1_center_img_image {
+  margin-top: 20rpx;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 16rpx;
+  margin-left: 18rpx;
+  margin-right: 5rpx;
+  float: left;
+}
+
+.main1_center_wz {
+  width: 435rpx;
+  height: 130rpx;
+  font-size: 22rpx;
+  color: #ccc;
+  letter-spacing: 1rpx;
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 30rpx;
+}
+
+.main1_center_shijian {
+  width: 210rpx;
+  height: 100%;
+  font-size: 20rpx;
+  color: #555453;
+  float: left;
+  letter-spacing: 1rpx;
+  margin-left: 40rpx;
+  line-height: 35rpx;
+}
+
+.main1_bottom_item {
+  width: 500rpx;
+  height: 60rpx;
+}
+
+.image_box {
+  width: 380rpx;
+  height: 100%;
+  /* overflow: scroll; */
+}
+
+.tx {
+  width: 58rpx;
+  height: 58rpx;
+  border-radius: 50%;
+  float: left;
+  margin-right: -25rpx;
+}
+
+.baoming {
+  float: right;
+  color: #ccc;
+  font-size: 20rpx;
+  margin-top: 20rpx;
+  letter-spacing: 1rpx;
+}
+
+.main_bottom_button {
+  width: 630rpx;
+  height: 88rpx;
+  background: #ccc;
+  margin-top: 35rpx;
+  margin-bottom: 30rpx;
+  text-align: center;
+  color: #fff;
+  line-height: 88rpx;
+  border-radius: 16rpx;
+}

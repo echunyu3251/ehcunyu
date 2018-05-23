@@ -1,0 +1,206 @@
+<!-- 话题模块 -->
+<template name="forum">
+  <view class="forum_box">
+    <!-- 头部 -->
+    <view class="news_header">
+      <view class="news_header_item">
+        <view class="news_header_left">
+          <image src="https://rb.sunlands.com/images/College/news_img.png" class="news_img"></image>
+        </view>
+        <view class="news_header_center">
+          <view class="news_header_center_top">
+            <view class="news_header_center_top_ItemLeft">
+              <view class="ItemLeft_name">蒋凤彤</view>
+              <view class="ItemLeft_hy">教育</view>
+            </view>
+          </view>
+          <view class="news_header_center_bottom">中欧国际工商学院管理学教授</view>
+        </view>
+        <view class="news_header_right">关注</view>
+      </view>
+    </view>
+    <!-- 主体 -->
+    <view class="main">
+      <!-- 主体 头部 -->
+      <view class="main_top">
+        <view class="jianjie">校友们,欢迎加入中欧商学院啊,无论是用户还是以工作人员的身份,我都在这里等你我都在这里等你等你等你我都在这里等你等你等你</view>
+      </view>
+      <!-- 主体 中间内容 -->
+      <view class="main_center">
+        <view class="main_center_biaoti">#名企内推#</view>
+        <view class="main_center_img" wx:for="{{[1,2,3]}}" wx:key="unique">
+          <image src="https://rb.sunlands.com/images/College/img1.png" class="tupian"></image>
+        </view>
+        <view class="main_center_sj">
+          <view class="main_center_shijian">2018-4-26 15:28</view>
+          <view class="main_center_right">
+            <view class="main_center_right_item1">
+              <image src="https://rb.sunlands.com/images/College/dianzan.png"></image>
+              <text>900</text>
+            </view>
+            <view class="main_center_right_item2">
+              <image src="https://rb.sunlands.com/images/College/zhuanfa.png"></image>
+              <text>900</text>
+            </view>
+            <view class="main_center_right_item3">
+              <image src="https://rb.sunlands.com/images/College/liuyan.png"></image>
+              <text>900</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!-- 主体  评论 -->
+      <view class="main_bottom">
+        <view class="main_bottom_item" wx:for="{{[1,2,3]}}" wx:key="unique">
+          <text class="main_bottom_item_name">吴克群 :</text>
+          <text class="main_bottom_item_content">666,很想加入中欧,向前辈看起!</text>
+        </view>
+        <view class="main_bottom_pinglun">查看全部评论 〉〉〉</view>
+      </view>
+    </view>
+  </view>
+</template>
+<!-- 活动模块 -->
+<template name="activity">
+  <view class="activity">
+    <view class="news_header1">
+      <view class="news_header_item">
+        <view class="news_header_left">
+          <image src="https://rb.sunlands.com/images/College/huodong_img.png" class="news_img"></image>
+        </view>
+        <view class="news_header_center">
+          <view class="news_header_center_top">
+            <view class="news_header_center_top_ItemLeft">
+              <view class="ItemLeft_name">徐利发</view>
+              <view class="ItemLeft_hy">IT互联网</view>
+            </view>
+          </view>
+          <view class="news_header_center_bottom">京东商城运营总监</view>
+        </view>
+        <view class="news_header_right">关注</view>
+      </view>
+    </view>
+    <!-- 主体 -->
+    <view class="main1">
+      <!-- 主体 头部 -->
+      <view class="main_top">
+        <view class="jianjie">这个月29号由企业参观哦,欢迎来感受下世界最先进的仓储配送,名额有限快来吧!</view>
+      </view>
+      <!-- 主体 中间内容 -->
+      <view class="main_center">
+        <view class="main_center_biaoti">#企业参观#           #名企内推#</view>
+        <view class="main1_center_img">
+          <image src="https://rb.sunlands.com/images/College/jingdong.png" class="main1_center_img_image"></image>
+          <view class="main1_center_wz">
+            4月29日全世界最先进的仓储等你来观摩,
+              最牛的员工办公环境,仅限报名前99位同学。
+          </view>
+        </view>
+        <view class="main_center_sj">
+          <view class="main1_center_shijian">2018-4-26 15:28</view>
+          <view class="main_center_right">
+            <view class="main_center_right_item1">
+              <image src="https://rb.sunlands.com/images/College/dianzan.png"></image>
+              <text>900</text>
+            </view>
+            <view class="main_center_right_item2">
+              <image src="https://rb.sunlands.com/images/College/zhuanfa.png"></image>
+              <text>900</text>
+            </view>
+            <view class="main_center_right_item3">
+              <image src="https://rb.sunlands.com/images/College/liuyan.png"></image>
+              <text>900</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!-- 主体  评论 -->
+      <view class="main_bottom">
+        <view class="main1_bottom_item">
+          <view class="image_box">
+            <image src="{{item}}" wx:for="{{img1}}" wx:key="unique" class="tx" />
+            <view class="baoming">......200人报名</view>
+          </view>
+        </view>
+        <view class="main_bottom_button">报名</view> 
+      </view>
+    </view>
+  </view>
+</template>
+
+
+
+
+<!-- 活动模块2 -->
+<template name="activity2">
+  <view class="activity">
+   
+    <view class="news_header1">
+             <view class="People_main_Join_top" style="border-bottom:0rpx;padding-top:20rpx;padding-left:10rpx;padding-bottom:20rpx;">
+                好友
+                <view class="People_main_Friend_wz" >徐利发 · 京东商城运营总监</view>
+                加入了π学院小程序
+            </view>
+      <view class="news_header_item">
+        <view class="news_header_left">
+          <image src="https://rb.sunlands.com/images/College/huodong_img.png" class="news_img"></image>
+        </view>
+        <view class="news_header_center">
+          <view class="news_header_center_top">
+            <view class="news_header_center_top_ItemLeft">
+              <view class="ItemLeft_name">徐利发</view>
+              <view class="ItemLeft_hy">IT互联网</view>
+            </view>
+          </view>
+          <view class="news_header_center_bottom">京东商城运营总监</view>
+        </view>
+        <view class="news_header_right">关注</view>
+      </view>
+    </view>
+    <!-- 主体 -->
+    <view class="main1">
+      <!-- 主体 头部 -->
+      <view class="main_top">
+        <view class="jianjie">这个月29号由企业参观哦,欢迎来感受下世界最先进的仓储配送,名额有限快来吧!</view>
+      </view>
+      <!-- 主体 中间内容 -->
+      <view class="main_center">
+        <view class="main_center_biaoti">#企业参观#           #名企内推#</view>
+        <view class="main1_center_img">
+          <image src="https://rb.sunlands.com/images/College/jingdong.png" class="main1_center_img_image"></image>
+          <view class="main1_center_wz">
+            4月29日全世界最先进的仓储等你来观摩,
+              最牛的员工办公环境,仅限报名前99位同学。
+          </view>
+        </view>
+        <view class="main_center_sj">
+          <view class="main1_center_shijian">2018-4-26 15:28</view>
+          <view class="main_center_right">
+            <view class="main_center_right_item1">
+              <image src="https://rb.sunlands.com/images/College/dianzan.png"></image>
+              <text>900</text>
+            </view>
+            <view class="main_center_right_item2">
+              <image src="https://rb.sunlands.com/images/College/zhuanfa.png"></image>
+              <text>900</text>
+            </view>
+            <view class="main_center_right_item3">
+              <image src="https://rb.sunlands.com/images/College/liuyan.png"></image>
+              <text>900</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!-- 主体  评论 -->
+      <view class="main_bottom">
+        <view class="main1_bottom_item">
+          <view class="image_box">
+            <image src="{{item}}" wx:for="{{img1}}" class="tx" />
+            <view class="baoming">......200人报名</view>
+          </view>
+        </view>
+        <view class="main_bottom_button">报名</view>
+      </view>
+    </view>
+  </view>
+</template>

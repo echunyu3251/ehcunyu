@@ -1,0 +1,122 @@
+<import src="../news/news.wxml" />
+<view class="HumanVein_content">
+<scroll-view scroll-y  style="height:100%;">
+  <!-- 人脉推荐 -->
+  <view class="Recommend">
+    <view class="Recommend_Title">人脉推荐</view>
+    <!-- 名片内容 -->
+    <view class="Recommend_Card">
+      <view class="Recommend_Card_TopBox">
+        <!-- 头像 -->
+        <view class="Recommend_Card_left">
+        <image src='https://rb.sunlands.com/images/College/RMTJ_img.png'></image>
+        </view>
+        <!-- 名字 -->
+        <view class="Recommend_Card_center">
+          <view class="Recommend_Card_center_top">
+            <view class="Recommend_Card_center_top_name">王晶晶</view>
+            <view class="Recommend_Card_center_top_xy">π学院 · 在读</view>
+          </view>
+          <view class="Recommend_Card_center_bottom">德邦速运 · 行政主管</view>
+        </view>
+        <!-- logo -->
+        <view class="Recommend_Card_right">
+          <image src="https://rb.sunlands.com/images/College/logo.png" class="logo"></image>
+        </view>
+      </view>
+      <view class="Recommend_Card_CenterBox">
+        <view class="Recommend_Card_CenterBox_email">
+          <image src="https://rb.sunlands.com/images/College/RM_email.png" class="email_logo"></image>
+          <view class="email_wz">8587484574@QQ.COM</view>
+        </view>
+        <view class="Recommend_Card_CenterBox_address">
+          <image src="https://rb.sunlands.com/images/College/RM_address.png" class="address_logo"></image>
+          <view class="address_wz">望京SOHO-706室</view>
+        </view>
+      </view>
+      <view class="Recommend_Card_BottomBox">
+        <view class="Recommend_Card_BottomBox_left">不感兴趣</view>
+        <view class="Recommend_Card_BottomBox_right">加关注</view>
+      </view>
+    </view>
+  </view>
+  <!-- 人脉圈 -->
+  <view class="People">
+    <view class="People_Title">
+      <view class="People_Title_Left">人脉圈</view>
+      <view class="People_Title_Right">
+        <text class="Title_right">推荐</text>
+        <text>|</text>
+        <text>最新</text>
+      </view>
+    </view>
+    <!-- 内容 -->
+    <view class="People_main_Friend">
+      <view class="People_main_Friend_top">
+        好友
+        <view class="People_main_Friend_wz">徐利发 · 京东商城运营总监</view>
+        认识了5个新朋友
+      </view>
+      <view class="People_main_Friend_bottom">
+        <view class="Friend_header">
+          <image src="https://rb.sunlands.com/images/College/huodong_img.png" class="Friend_img"></image>
+        </view>
+        <view class="jiaohuan">
+          <image src="https://rb.sunlands.com/images/College/jiaohuan.png" class="jiaohuan_img"></image>
+        </view>
+
+        <view class="Friend_header1">
+          <image src="https://rb.sunlands.com/images/College/news_img.png" class="Friend_img"></image>
+        </view>
+        <view class="Friend_header1">
+          <image src="https://rb.sunlands.com/images/College/news_img.png" class="Friend_img"></image>
+        </view>
+        <view class="Friend_header1">
+          <image src="https://rb.sunlands.com/images/College/news_img.png" class="Friend_img"></image>
+        </view>
+
+        <view class="button">
+          <image src="https://rb.sunlands.com/images/College/button.png" class="button_img"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="People_main_NewPosition">
+      <view class="People_main_NewPosition_top">
+        好友
+        <view class="People_main_Friend_wz">李娜 · 京东商城运营总监</view>
+        更换了新职位
+      </view>
+      <view class="People_main_NewPosition_bottom">
+        <view class="Friend_header">
+          <image src="https://rb.sunlands.com/images/College/huodong_img.png" class="Friend_img"></image>
+        </view>
+        <view class="nameAndzw">
+          <view class="name">李娜</view>
+          <view class="zw">京东商城运营总监</view>
+        </view>
+      </view>
+    </view>
+    <view class="People_main_Join">
+      <view class="People_main_Join_top">
+        好友
+        <view class="People_main_Friend_wz">张曼曼 · 京东商城运营总监</view>
+        加入了π学院小程序
+      </view>
+      <view class="People_main_Join_bottom">
+        <view class="Friend_header">
+          <image src="https://rb.sunlands.com/images/College/huodong_img.png" class="Friend_img"></image>
+        </view>
+        <view class="nameAndzw">
+          <view class="name">张曼曼</view>
+          <view class="zw">京东商城运营总监</view>
+        </view>
+        <view class="gz">关注</view>
+      </view>
+    </view>
+    <view class="activity_template">
+      <template is="activity2" data="{{img1}}" />
+    </view>
+  </view>
+  </scroll-view>
+</view>

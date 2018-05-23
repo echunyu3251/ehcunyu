@@ -1,0 +1,2 @@
+<!--pages/cxsq/cxsq.wxml-->
+<button class='sq' open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo">点击授权</button> 

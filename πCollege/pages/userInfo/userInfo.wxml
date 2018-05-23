@@ -1,0 +1,169 @@
+<!-- pages/userInfo/userInfo.wxml -->
+<view class="userInfo_content">
+<scroll-view scroll-y  style="height:100%;">
+
+  <view class="header">
+    <image src="https://rb.sunlands.com/images/College/user_xingxing.png"></image>
+    <text class="">实名增加大咖、校友互动几率及活动报名通过率~</text>
+  </view>
+  <view class="user_box1">
+    <view class="Info_box">
+      <view class="Info_box_left" >
+        <text class="left1" style="margin-right:25rpx;"></text> 
+        <text class="left2">头像</text>
+      </view>
+      <view class="Info_box_right"> 
+        <view class="right_tx" bindtap='headUpPage'>
+          <!-- <image src="https://rb.sunlands.com/images/College/user_head.png"></image> -->
+          <image src='{{downPageImg}}' class="user_head" ></image>
+        </view>
+        <view class="right_sj" bindtap="up_head" bindtap='headUpPage'>
+          <image src="https://rb.sunlands.com/images/College/my_zhankai.png"></image>
+        </view>
+      </view>
+    </view>
+    <view class="Info_box">
+      <view class="Info_box_left">
+        <text class="left1">*</text>
+        <text class="left2">真实姓名</text>
+      </view>
+      <view class="Info_box_right">
+        <input bindinput="bindname" placeholder="请填写姓名" maxlength="6" value="{{name}}"  class="input_sty" style="direction: rtl;" />
+      </view>
+    </view>
+    <view class="Info_box">
+      <view class="Info_box_left">
+        <text class="left1">*</text>
+        <text class="left2">性别</text>
+      </view>
+      <view class="Info_box_right">
+        <view class="right_sj">
+          <image src="https://rb.sunlands.com/images/College/my_zhankai.png"></image>
+        </view>
+        <view class="right_sex">
+         <picker mode="selector" range="{{array}}" value="{{index}}" bindchange="listenerPickerSelected" class='city'>
+    <text style='color:#fff;font-size:14px;'>{{array[index]}}</text>
+  </picker>
+        
+        
+        </view>
+      </view>
+    </view>
+    <view class="Info_box">
+      <view class="Info_box_left">
+        <text class="left1">*</text>
+        <text class="left2">行业/方向</text>
+      </view>
+      <view class="Info_box_right" bindtap='industry'>
+        <view class="right_sj">
+          <image src="https://rb.sunlands.com/images/College/my_zhankai.png"></image>
+        </view>
+        <view class="right_hy">IT互联网</view>
+      </view>
+    </view> 
+    <view class="Info_box">
+      <view class="Info_box_left">
+        <text class="left1">*</text>
+        <text class="left2">公司</text>
+      </view>
+      <view class="Info_box_right">
+        <input bindinput="bindgs" placeholder="请填写公司名称" value="{{gs_value}}"  class="input_sty" style="direction: rtl;"/>
+      </view>
+    </view>
+    <view class="Info_box">
+      <view class="Info_box_left">
+        <text class="left1">*</text>
+        <text class="left2">职位</text>
+      </view>
+      <view class="Info_box_right">
+        <input bindinput="bindzw" placeholder="请填写职位"  value="{{zw_value}}"  class="input_sty" style="direction: rtl;"/>
+      </view>
+    </view>
+    <view class="Info_box">
+      <view class="Info_box_left">
+        <text class="left1" style="margin-right:25rpx;"></text>
+        <text class="left2">工作地区</text>
+      </view>
+      <view class="Info_box_right">
+        <input bindinput="bindaddress" placeholder="请填写工作地区"  value="{{address_value}}"  class="input_sty" style="direction: rtl;"/>
+      </view>
+    </view>
+  </view>
+  <view class="user_lxfs">
+    <image src="https://rb.sunlands.com/images/College/user_lianxi.png"></image>
+    <text class="">联系方式</text>
+  </view>
+  <view class="user_box2">
+    <view class="lx_box">
+      <view class="Info_box_left">
+        <text class="left1" style="margin-right:25rpx;"></text>
+        <text class="left2">用户ID</text>
+      </view>
+      <view class="Info_box_right">
+        <input bindinput="bindID" placeholder="请填写ID"  value="{{ID_value}}"  class="input_sty" style="direction: rtl;"/>
+      </view>
+    </view>
+    <view class="lx_box">
+      <view class="Info_box_left">
+        <text class="left1">*</text>
+        <text class="left2">手机号</text>
+      </view>
+      <view class="Info_box_right">
+        <input bindinput="bindtel" type="number" placeholder="请填写手机号" maxlength="11" value="{{tel_value}}"  class="input_sty" style="direction: rtl;"/>
+      </view>
+    </view>
+    <view class="lx_box">
+      <view class="Info_box_left" style="width:150rpx;">
+        <text class="left1">*</text>
+        <text class="left2">邮箱</text>
+      </view>
+      <view class="Info_box_right">
+        <input bindinput="bindemail" placeholder="请填写邮箱"  value="{{email_value}}"  class="input_sty"    />
+      </view>
+    </view>
+  </view>
+  <view class="user_xyInfo">
+    <image src="https://rb.sunlands.com/images/College/user_xueyuan.png"></image>
+    <text class="">学院信息</text>
+  </view>
+  <view class="user_box3">
+    <view class="xyInfo_box">
+      <view class="Info_box_left">
+        <text class="left1">*</text>
+        <text class="left2">所属学院</text>
+      </view>
+      <view class="Info_box_right">
+        <input bindinput="bindxyInfo" placeholder="请填写所属学院"  value="{{xyInfo_value}}"  class="input_sty" style="direction: rtl;"/>
+      </view>
+    </view>
+    <view class="xyInfo_box" >
+      <view class="Info_box_left" style="width:260rpx;">
+        <text class="left1">*</text>
+        <text class="left2">所属专业/意向专业</text>
+      </view>
+      <view class="Info_box_right" style="width:350rpx;">
+        <input bindinput="bindzy" placeholder="请填写专业"  value="{{zy_value}}"  class="input_sty" style="width:350rpx;" style="direction: rtl;"/>
+      </view>
+    </view>
+    <view class="xyInfo_box">
+      <view class="Info_box_left">
+        <text class="left1">*</text>
+        <text class="left2">就读时间</text>
+      </view>
+      <view class="Info_box_right">
+        <input bindinput="bindtime" placeholder="请填写就读时间" value="{{time_value}}"  class="input_sty"  style="direction: rtl;"/>
+      </view>
+    </view>
+    <view class="xyInfo_box">
+      <view class="Info_box_left" style="width:150rpx;">
+        <text class="left1" style="margin-right:25rpx;"></text>
+        <text class="left2">意向院校</text>
+      </view>
+      <view class="Info_box_right">
+        <input bindinput="bindschool" placeholder="请填写意向院校"  value="{{school_value}}"  class="input_sty" style='' style="direction: rtl;"/>
+      </view>
+    </view>
+  </view>
+  <view class="btn" bindtap='storage'>保存</view>
+  </scroll-view>
+</view> 

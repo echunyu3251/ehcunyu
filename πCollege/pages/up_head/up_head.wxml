@@ -1,0 +1,15 @@
+<!--pages/up_head/up_head.wxml-->
+<view class='insert_content'>
+  <scroll-view scroll-y style="height:100%;">
+ <view bindtap='up_img' class='headBox'>上传头像</view>  
+    <view class="insert">
+      <block wx:for="{{img}}">
+        <image src="{{item}}" bindload="a" class='dataImg'></image>
+      </block>
+      <view class="image_box" bindtap="choseImg">
+        <image src="https://rb.sunlands.com/images/College/jia.png"></image>
+      </view>
+    </view>
+    <view class="clear"></view>
+  </scroll-view> 
+</view> 

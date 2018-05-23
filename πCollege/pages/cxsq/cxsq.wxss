@@ -1,0 +1,16 @@
+/* pages/cxsq/cxsq.wxss */
+page{
+  background: #fff;
+
+}
+.sq{
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  position: absolute;
+  /* left: 50%; */
+  top: 50%;
+  margin-top: -50rpx;
+  /* margin-left:  */
+}
